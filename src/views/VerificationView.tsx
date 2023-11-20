@@ -1,19 +1,16 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import '../styling/TouchScreenView.css';
+import Inputs from '../components/inputs';
 
 
 const VerificationView = () => {
     return (
-        <div className="verification-view">
-            <div className="verification-view__header">
-                <h1 className="verification-view__header__title">Verification</h1>
-                <div className="verification-view__header__icon">
-                    <FontAwesomeIcon icon="check-circle" size="2x"/>
-                </div>
+        <div className="touch-screen-container">
+            <div className="tablet-layout">
+           <Inputs/>
             </div>
-            <div className="verification-view__body">
-                <p className="verification-view__body__text">Your parcel has been successfully delivered.</p>
-            </div>
+            
         </div>
     );
 }
