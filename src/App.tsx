@@ -1,12 +1,14 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import VerificationView from './views/VerificationView';
+import WelcomeView from './views/WelcomeView';
 
 function App() {
   return (
     <div className="App">
-      <VerificationView />
+      <Routes>
+        <Route path="/" element={<WelcomeView />} />
+      </Routes>
     </div>
   );
 }
