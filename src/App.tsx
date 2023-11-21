@@ -1,13 +1,16 @@
 // App.tsx
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './routes/Routes';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import WelcomeView from './views/WelcomeView';
 
 const App = () => {
   return (
-    
-      <Routes />
-   
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<WelcomeView />} />
+      </Routes>
+    </div>
   );
 };
 
