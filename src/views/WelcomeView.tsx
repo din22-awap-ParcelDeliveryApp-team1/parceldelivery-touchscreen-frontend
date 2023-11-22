@@ -1,15 +1,20 @@
 import { useState } from 'react';
+import { useNavigate, NavigateFunction } from 'react-router-dom';
 import '../styling/Welcome.css';
 import phone from '../images/phone.svg'
 import VerificationView from './VerificationView';
 
+interface WelcomeViewProps {
+    navigate: NavigateFunction;
+  }
 
-const WelcomeView = () => {
+  const WelcomeView: React.FC<WelcomeViewProps> = ({ navigate }) => {
 
     const [deliveryAction, setDeliveryAction] = useState<string | null>(null);
 
     const handleLinkAction = (action: string) => {
         setDeliveryAction(action);
+        navigate(`/verification?deliveryAction=${action}`);
     };
 
     return (
