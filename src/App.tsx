@@ -1,14 +1,14 @@
+// App.tsx
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import VerificationView from './views/VerificationView';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes/Routes';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <VerificationView />
-    </div>
+    
+      <Routes />
+   
   );
-}
+};
 
 export default App;
