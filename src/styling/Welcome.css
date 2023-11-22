@@ -2,22 +2,27 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 100vh;
-    width: 1024px;
+    height: 700px;
+    width : 1000px;
     border-style: ridge;
     align-items: center;
-    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
 }
 .welcomeHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #FFC300;
+    padding-top: 8%;
+    padding-bottom: 5%;
 }
 .logo {
-    padding: 15px;
+    padding-right: 20px;
 }
-.headerText {
-    padding: 15px;
+.text {
+    padding-bottom: 10%
 }
 .buttons {
     width: 100%;
@@ -26,23 +31,25 @@
     justify-content: space-evenly;
     padding-left: 12%;
     padding-right: 12%;
+    padding-bottom: 8%;
+    padding-top: 8%;
 }
-#deliveryBtn {
+#dropBtn {
     border-radius: 5px;
-    background-color: #f7923a;
     color: black;
     font-size: 20px;
+    font-weight: bold;
     padding: 12px;
     border: none;
     outline: none;
     width: 130px;
     text-decoration: none;
 }
-#pickupBtn {
+#pickBtn {
     border-radius: 5px;
-    background-color: #31c736;
-    color: black;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
     padding: 12px;
     border: none;
     outline: none;
