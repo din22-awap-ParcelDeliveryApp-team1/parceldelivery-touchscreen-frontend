@@ -5,7 +5,6 @@ interface CodeViewerProps {
 }
 
 const CodeViewer: React.FC<CodeViewerProps> = ({ code }) => {
-  // Ensure the code is exactly 4 digits, pad with zeros if needed
   const formattedCode = code.padStart(4, ' ');
 
   return (
