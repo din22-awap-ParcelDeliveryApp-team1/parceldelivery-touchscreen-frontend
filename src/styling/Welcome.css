@@ -1,0 +1,65 @@
+.welcomeBody {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 700px;
+    width : 1000px;
+    border-style: ridge;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.welcomeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFC300;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+.logo {
+    padding-right: 20px;
+}
+.text {
+    padding-bottom: 10%
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+#dropBtn {
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    outline: none;
+    width: 130px;
+    text-decoration: none;
+}
+#pickBtn {
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    outline: none;
+    width: 130px;
+    text-decoration: none;
+}
+.phone {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 28%;
+}

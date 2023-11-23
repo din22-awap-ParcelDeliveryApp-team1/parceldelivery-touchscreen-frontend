@@ -1,13 +1,19 @@
 // App.tsx
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './routes/Routes';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import SelectView from './views/SelectView';
+import DropOffView from './views/DropoffView';  
+import PickupfView from './views/PickupView';
 
 const App = () => {
   return (
-    
-      <Routes />
-   
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<SelectView />} />
+        <Route path="/dropoff" element={<DropOffView />} />
+        <Route path="/pickup" element={<PickupfView />} />
+      </Routes>
+    </div>
   );
 };
 
