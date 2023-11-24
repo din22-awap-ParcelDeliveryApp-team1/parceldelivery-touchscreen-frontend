@@ -31,11 +31,24 @@ body {
     margin-bottom: 0px;
     color: #FFC300;
   }
-  .message {
+  .error {
     color: #FF5733;
     font-size: 1.2em;
     font-weight: 600;
-   
+  }
+  .message {
+    color: #90A9B7;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .back-link {
+    color: #90A9B7;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .text-right {
+    text-align: right;
   }
 
   /* Numebr pad*/
