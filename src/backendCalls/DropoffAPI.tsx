@@ -7,7 +7,7 @@ const DropoffInputs = () => {
 
   const handleConfirm = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/verify-dropoff', {
+      const response = await fetch('http://localhost:3001/api/verify-dropoff' || process.env.REACT_APP_API, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

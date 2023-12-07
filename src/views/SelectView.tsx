@@ -10,7 +10,7 @@ const SelectView = () => {
 		<div className="welcomeBody">
 			<div className="welcomeHeader">
 				<div>
-					<img className='logo' src="" alt="Logo" />
+					<img className='logo' src="./images/logo_driveme.png" alt="Logo" />
 				</div>
 				<div>
 					<h2 className='headerText'>Welcome to Parcel Delivery</h2>
