@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import phone from '../images/phone.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styling/Welcome.css';
+import logo from '../images/logo_driveme.png'; 
 
 
 const SelectView = () => {
@@ -10,7 +11,7 @@ const SelectView = () => {
 		<div className="welcomeBody">
 			<div className="welcomeHeader">
 				<div>
-					<img className='logo' src="./images/logo_driveme.png" alt="Logo" />
+				<img className='logo' src={logo} alt="Logo"  />
 				</div>
 				<div>
 					<h2 className='headerText'>Welcome to Parcel Delivery</h2>
@@ -32,7 +33,7 @@ const SelectView = () => {
 				</Link>
 			</div>
 			<div className='phone'>
-				<img src={phone} alt="phone" />
+				<img src={phone} className="mb-3"/>
 				<p>+358 050 1234567</p>
 			</div>
 		</div >
