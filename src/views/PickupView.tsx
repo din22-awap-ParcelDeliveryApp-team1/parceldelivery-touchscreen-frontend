@@ -1,6 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import DropoffInputs from '../components/DropoffInputs';
 import PickupInputs from '../components/PickupInputs';
 import '../styling/TouchScreenView.css';
 

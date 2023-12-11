@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styling/Welcome.css';
 import logo from '../images/logo_driveme.png';
 
-
 const SelectView = () => {
 
 	return (
