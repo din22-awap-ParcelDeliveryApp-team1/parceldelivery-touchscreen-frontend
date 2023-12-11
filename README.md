@@ -69,7 +69,9 @@ This is a backend application which is responsible for automatically generating 
 ```
 - Create .env file in the backend repositories where you can store your DB_HOST, DB_NAME, DB_PASSWORD. 
 - For driverapp backend, in model/dropoff_model: add necessary values for these parameters in .env file. (use app password ([eg: google app password](https://support.google.com/mail/answer/185833?hl=en)) of your email)
+  
 ![App Screenshot](public/images/screenshot.png.jpg)
+
 - Start backend server 
 ```bash
  npm rundevStart
