@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import phone from '../images/phone.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styling/Welcome.css';
-import logo from '../images/logo_driveme.png'; 
-
+import logo from '../images/logo_driveme.png';
 
 const SelectView = () => {
 
