@@ -33,7 +33,7 @@ const SelectView = () => {
 				</Link>
 			</div>
 			<div className='phone'>
-				<img src={phone} className="mb-3"/>
+				<img src={phone} alt="phone" className="mb-3"/>
 				<p>+358 050 1234567</p>
 			</div>
 		</div >
