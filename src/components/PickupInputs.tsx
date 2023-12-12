@@ -83,9 +83,9 @@ const PickupInputs = () => {
             >
               <option value={1}>Locker 1 : Prisma , Linnanmaa</option>
               <option value={2}>Locker 2 : K Market, Kaijonharju</option>
-              <option value={3}>Locker 3 : Prisma , Raksila</option>
-              <option value={4}>Locker 4 : Lidl , Tuira</option>
-              <option value={5}>Locker 5 : K Market, Rusko</option>
+              <option value={3}>Locker 3 : Lidl, Tuira</option>
+              <option value={4}>Locker 4 : Lidl , Pataniemi</option>
+              <option value={5}>Locker 5 : Prisma, Raksila</option>
             </select>
           </div>
 
