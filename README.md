@@ -1,6 +1,10 @@
 
 ![Logo](/public/images/logo_driveme.png)
 
+![Screenshot 2024-01-16 113029](https://github.com/din22-awap-ParcelDeliveryApp-team1/parceldelivery-touchscreen-frontend/assets/114556816/3f90fae0-57e9-4972-8e27-b60071b9a666)
+
+![Screenshot 2024-01-16 113054](https://github.com/din22-awap-ParcelDeliveryApp-team1/parceldelivery-touchscreen-frontend/assets/114556816/c0c68f50-5bf4-4378-a341-d108200ea39c)
+
 
 # Advanced Web Application Project 
 
